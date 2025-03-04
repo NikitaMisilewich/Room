@@ -1,0 +1,41 @@
+﻿@using System.Security.Claims
+@using Newtonsoft.Json
+@inject IJSRuntime JSRuntime
+@inject CustomAuthStateProvider AuthStateProvider
+
+@code {
+    private bool isInitialized = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Выполните JS-вызов только после того, как компонент будет загружен
+            var savedUser = await LoadUserFromLocalStorage();
+            if (savedUser != null)
+            {
+                // Извлекаем имя и роль пользователя
+                var username = savedUser.Identity.Name;
+                var role = savedUser.FindFirst(ClaimTypes.Role)?.Value;
+
+                // Обновляем состояние аутентификации
+            }
+
+            isInitialized = true;
+
+            StateHasChanged(); // Обновить компонент
+        }
+    }
+
+    private async Task<ClaimsPrincipal> LoadUserFromLocalStorage()
+    {
+        var userJson = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "currentUser");
+        if (string.IsNullOrEmpty(userJson))
+        {
+            return null;
+        }
+
+        var user = JsonConvert.DeserializeObject<ClaimsPrincipal>(userJson);
+        return user;
+    }
+}

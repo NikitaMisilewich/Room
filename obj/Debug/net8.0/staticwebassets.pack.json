@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatRoom.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ChatRoom.4oamcw6q5c.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\HomeImg.png",
+      "PackagePath": "staticwebassets\\HomeImg.png"
+    },
+    {
+      "Id": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\sidebar.png",
+      "PackagePath": "staticwebassets\\sidebar.png"
+    },
+    {
+      "Id": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\v2_2.png",
+      "PackagePath": "staticwebassets\\v2_2.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ChatRoom.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ChatRoom.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ChatRoom.props",
+      "PackagePath": "build\\ChatRoom.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ChatRoom.props",
+      "PackagePath": "buildMultiTargeting\\ChatRoom.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ChatRoom.props",
+      "PackagePath": "buildTransitive\\ChatRoom.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

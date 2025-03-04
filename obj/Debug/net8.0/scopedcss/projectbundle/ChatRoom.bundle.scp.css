@@ -1,0 +1,278 @@
+/* _content/ChatRoom/Components/Layout/MainLayout.razor.rz.scp.css */
+.page[b-9fsqmu0abj] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ��������� ��� ������ � ������� ������ */
+.top-buttons[b-9fsqmu0abj] {
+    display: flex;
+    gap: 5px; /* ���������� ����� �������� */
+    justify-content: center;
+    align-items: center;
+}
+
+/* ����� ��� ������ ������ (������) */
+.icon-button[b-9fsqmu0abj] {
+    background-color: white; /* ����� ��� */
+    border: none; /* ������� ������� */
+    border-radius: 15%; /* ������ 50% ��� ������� ����� */
+    padding: 15px; /* ������� ������ ������ */
+    width: 100px; /* ������ ������ */
+    height: 40px; /* ������ ������ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none; /* ��������� ��������� ������ */
+    text-decoration: none; /* ������� ������������� � ������ */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* ������ ���� */
+}
+
+    /* ������ ��� ��������� */
+    .icon-button:hover[b-9fsqmu0abj] {
+        background-color: #f0f0f0; /* ���� ���� ��� ��������� */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* ����������� ���� */
+        
+    }
+
+    /* ������ */
+    .icon-button i[b-9fsqmu0abj] {
+        font-size: 20px; /* ������ ������ */
+        color: #333; /* ���� ������ (������) */
+    }
+
+    .icon-button:focus[b-9fsqmu0abj] {
+        outline: none;
+    }
+
+
+main[b-9fsqmu0abj] {
+    flex: 1;
+}
+
+.top-row[b-9fsqmu0abj] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-9fsqmu0abj]  a, .top-row[b-9fsqmu0abj]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+        .top-row[b-9fsqmu0abj]  a:hover, .top-row[b-9fsqmu0abj]  .btn-link:hover {
+            text-decoration: underline;
+        }
+
+        .top-row[b-9fsqmu0abj]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+@media (max-width: 640.98px) {
+    .top-row[b-9fsqmu0abj] {
+        justify-content: space-between;
+    }
+
+        .top-row[b-9fsqmu0abj]  a, .top-row[b-9fsqmu0abj]  .btn-link {
+            margin-left: 0;
+        }
+}
+
+@media (min-width: 641px) {
+    .page[b-9fsqmu0abj] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-9fsqmu0abj] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-9fsqmu0abj] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+        .top-row.auth[b-9fsqmu0abj]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
+
+    .top-row[b-9fsqmu0abj], article[b-9fsqmu0abj] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+#blazor-error-ui[b-9fsqmu0abj] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss[b-9fsqmu0abj] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+/* _content/ChatRoom/Components/Layout/NavMenu.razor.rz.scp.css */
+.sidebar[b-i93d7nwewn] {
+    width: 250px;
+    height: 100vh;
+    background: url("HomeImg.png");
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: width 0.3s ease;
+}
+
+.collapsed[b-i93d7nwewn] {
+    width: 70px;
+}
+
+.toggle-btn[b-i93d7nwewn] {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.profile-box[b-i93d7nwewn] {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.collapsed .profile-box[b-i93d7nwewn] {
+    justify-content: center;
+}
+
+.avatar[b-i93d7nwewn] {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: margin 0.3s ease;
+}
+
+.collapsed .avatar[b-i93d7nwewn] {
+    margin-right: 0;
+}
+
+.profile-info[b-i93d7nwewn] {
+    flex-grow: 1;
+}
+
+    .profile-info h4[b-i93d7nwewn] {
+        margin: 0;
+        color: black;
+        font-size: 16px;
+    }
+
+.group-text[b-i93d7nwewn] {
+    margin: 0;
+    color: black;
+    font-size: 10px;
+}
+
+.collapsed .profile-info[b-i93d7nwewn] {
+    display: none;
+}
+
+nav ul[b-i93d7nwewn] {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+    nav ul li[b-i93d7nwewn] {
+        margin: 10px 0;
+    }
+
+.nav-link[b-i93d7nwewn] {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+    .nav-link span:first-child[b-i93d7nwewn] {
+        margin-right: 10px;
+    }
+
+.collapsed .nav-link[b-i93d7nwewn] {
+    justify-content: center;
+}
+
+    .collapsed .nav-link span:last-child[b-i93d7nwewn] {
+        display: none;
+    }
+
+.nav-link:hover[b-i93d7nwewn], .nav-link:focus[b-i93d7nwewn] {
+    background: white;
+    color: #1e1e60;
+}
+
+.logout[b-i93d7nwewn] {
+    margin-top: auto;
+    width: 100%;
+}
+
+    .logout a[b-i93d7nwewn] {
+        color: #FFFCFC;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+.collapsed .logout[b-i93d7nwewn] {
+    justify-content: center;
+}
+
+    .collapsed .logout span:last-child[b-i93d7nwewn] {
+        display: none;
+    }
+
+@media (max-width: 768px) {
+    .sidebar[b-i93d7nwewn] {
+        width: 70px;
+        padding: 10px;
+    }
+}

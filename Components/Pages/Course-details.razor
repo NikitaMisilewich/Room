@@ -1,0 +1,99 @@
+﻿@page "/announcements"
+
+@using Radzen
+@using Radzen.Blazor
+
+@code {
+    class Comment
+    {
+        public string Author { get; set; }
+        public string Date { get; set; }
+        public string Content { get; set; }
+    }
+
+    List<Comment> comments = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        comments = new List<Comment>
+        {
+            new Comment { Author = "Иван Иванов", Date = "3 Янв. 2024", Content = "Два раза в неделю, вторник, среда 20:00-21:00, удаленное консультирование для всех групп. На этих консультациях вам позволено задавать вопросы, либо сдавать ЛР. Обязательное присутствие учащихся только на ОКР." },
+            new Comment { Author = "Иван Иванов", Date = "3 Янв. 2024", Content = "Пользователь Иван Иванов добавил заметку: ЛР (01.02.2024)" }
+        };
+    }
+}
+
+<h3 class="page-title">Все Курсы</h3>
+<div class="course-header">
+    <h2>Название курса</h2>
+</div>
+
+<div class="comments-container">
+    @foreach (var comment in comments)
+    {
+        <div class="comment-box">
+            <p class="comment-author">@comment.Author</p>
+            <p class="comment-date">@comment.Date</p>
+            <p class="comment-content">@comment.Content</p>
+            <input type="text" placeholder="Оставить комментарий" class="comment-input" />
+        </div>
+    }
+</div>
+
+<button class="btn btn-secondary add-course">Добавить курс</button>
+<button class="btn btn-secondary search-course">Поиск</button>
+
+<style>
+    .page-title {
+        color: #2c3e50;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .course-header {
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .comments-container {
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .comment-box {
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+    .comment-author {
+        font-weight: bold;
+    }
+
+    .comment-date {
+        font-size: 12px;
+        color: gray;
+    }
+
+    .comment-input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .btn-secondary {
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+</style>

@@ -1,0 +1,4554 @@
+{
+  "Version": 1,
+  "Hash": "yu75BaVLaSsnv6oxs9C2sf4ds4yIvsDJ5xCXp4D59+k=",
+  "Source": "ChatRoom",
+  "BasePath": "_content/ChatRoom",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ChatRoom\\wwwroot",
+      "Source": "ChatRoom",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ctlzmg1qhg",
+      "Integrity": "0AB2c8r28JaoRdBgotEvaaeSETMCQyoVr6eLE9KGZ3c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/dark-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ms78oz3ijf",
+      "Integrity": "dg2uLnp8WT18OLoavAJTzFemvN4cIL4/U3dEIyrYqso=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/dark-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f9yvf3g7j5",
+      "Integrity": "M9oCY0HEHaFPTMj7CLTxNBT7/8jUvcI3/3q27/kphek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/default.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vl9p9ek1x9",
+      "Integrity": "4x3OfRrAdkgIyei1Kajrc+SrkyIqnhN1bvXVQzbziPo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/default-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p6eani5k1x",
+      "Integrity": "UbVx2QXkBRJ9rvwO7wIpCgQfJPj0mzkeNBchcYfQTSg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/default-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "796b73bq82",
+      "Integrity": "lYiMLG73UrqjeD3Xr0zwkygnPDSAQXeAo1554Yjqjkc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9eht9x7hrh",
+      "Integrity": "UXrF8K0c7KZrikGMN95vxqwpkk+E87k9UmR66wmbbps=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vphoyl9a2y",
+      "Integrity": "s1UYc3734Zo3TSzVqdfEwuZLFpYc+uL6vnUSnubsK2o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h26yhwsdf2",
+      "Integrity": "OYR2k7+puRJfX+t7RZ0AEqWZTPbmwqCdCUVmjfRuS5I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic-dark-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uar3g282iv",
+      "Integrity": "9gRVzsBD+UM5CXCqmcUbq37b3mw5aH4G0STvVLclw2k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic-dark-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a5szytxnku",
+      "Integrity": "wsCFo85Tm++Hir55ycJcA850vMHr3ejT4YmaO32HaNc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x6merli1rk",
+      "Integrity": "J8kJYxpBFMrMjHMBSdDlq1lYqyntxOrDZ8AW5FrxH8U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iyz6zr46e6",
+      "Integrity": "dvUiRV05t8GPRcZOhGVelGkNDfU2cPYUs7JVLWV3hFw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ctvny2mas",
+      "Integrity": "QYVveRTQwp5KX7k7bgd8PFM6s8o2EUas4uo/Oef4Skg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6yz07f3l9b",
+      "Integrity": "AtfeY6zt1gDf/lIQQrHtrOsFv+1eTrTYzG1Xg546uyk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material-dark-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a5vjknvy2r",
+      "Integrity": "buSYV839wWdKaWiWfzAlK7uDRRna5l5uDO/t9EldzBI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material-dark-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "22pb44itlf",
+      "Integrity": "mscmBJFsTrAe0H/SoknylPnukiQX2yfQ/zSnbR4B75k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pblx1qaqft",
+      "Integrity": "y6x9nQqkv3mW+Dvmm6Pvh+h0ixHfY0RLzrX6ZlktoG4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dtu0r0advo",
+      "Integrity": "/4hcUhf2/5LxCSMLOsKm+nGhC+5N8V1sYL8s0XLNkvI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9l4zfubvw6",
+      "Integrity": "A+ff7ee8yurGnIxroWL8FfiAKLEFEwYolw12e7bLdQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d7q7hkqumb",
+      "Integrity": "l95ctifcoxfwUUWlvh5cLFVf2iLNFjLpWY6AjGUHCCo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software-dark-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ibxb0ybo9x",
+      "Integrity": "bvXqZ2k9DEwak2IbY1QQ+i7q6ZXVeIsEXQWt3ABQe2E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software-dark-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "557e8lceon",
+      "Integrity": "VyhJgq8po3mud6FSP2a9ENksqEZN5jW2kGxLQC+F154=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9fpk6led9e",
+      "Integrity": "tRcVAq9DGc0nyvTuxUpiBTY8PaxnC6deHLSE8Ri1PMg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ki9ku0x47z",
+      "Integrity": "1KQDVTGhE+Wau/9CIJXOGgA8hEFk6bQ66x6a9TyIvZc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tbax4ktqif",
+      "Integrity": "d6kX8eyYbZaHbHnvL8UmDaHxCT5nw7PNMx6GEVmd4tg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jvea2ecjsz",
+      "Integrity": "Mdy0J2P77DDeQNK43pC8T+VmZOxmNKb/xLGo6vT0Hwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard-dark-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sl4g6brqwo",
+      "Integrity": "UH1TrO422Hhfm3EkanuKAl7DVDf4u1Sb43MhPJkJMhw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard-dark-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7bt2cgjiuc",
+      "Integrity": "HYNTnwNf3xj899KPdiKwmD1e5t3XRg9VaQgB1ZOvKeI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kp0ueqs315",
+      "Integrity": "GFU2mt0A9T8j9YMwMQqIUmdziKNDuPppDCn2o37LV2E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/MaterialSymbolsOutlined.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mv86jbv18h",
+      "Integrity": "jl6yGniuOaLQTXd36jhE7+/dH86dwgPNpHgSvBiQxxM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\RobotoFlex.woff2",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/RobotoFlex.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tdgcpklreb",
+      "Integrity": "D4n6QkbzuJDYChkHTPMXLxJlSC/5uucOpe2kU+JCJRs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\RobotoFlex.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/SourceSans3VF-Italic.ttf.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sw3iuqo2hf",
+      "Integrity": "tJWavAVpOS+HxsasYS+Q4/4BBNKDckGJt9i29hrzR9M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/SourceSans3VF-Upright.ttf.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nqmp3d2aoy",
+      "Integrity": "XxZWb3pA05szmtJr4VH6Whqx8MJXTHouYZdlWEoay9g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\Radzen.Blazor.js",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "Radzen.Blazor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "me5rhvxkh3",
+      "Integrity": "4g5k2X37bjnc3I5BTOByZON1yNka6cMVSSACmPv+hh4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\Radzen.Blazor.js"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ChatRoom.styles.css",
+      "SourceId": "ChatRoom",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "ChatRoom#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "4oamcw6q5c",
+      "Integrity": "fDTmHBMKYXOos7vXuWih3SsIjTQhTqQwuOp1oxuCsOQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ChatRoom.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatRoom.bundle.scp.css",
+      "SourceId": "ChatRoom",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "ChatRoom#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "4oamcw6q5c",
+      "Integrity": "fDTmHBMKYXOos7vXuWih3SsIjTQhTqQwuOp1oxuCsOQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatRoom.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\app.css",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "75v8iso2mq",
+      "Integrity": "q5ExowwyjaYiitgiEzqntXkqrR2xMKYcuxNHTWdxybU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\favicon.png",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\HomeImg.png",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "HomeImg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fuls464yab",
+      "Integrity": "aYYu8o9MRAij/4NY1GyDRmzEvUwJKqAECcTAJ48NxO4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HomeImg.png"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\sidebar.png",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "sidebar#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aad9reklnw",
+      "Integrity": "fuFw2J1Vd2bWquS2K3wRIFDzzBiUZyeg81Ppw3ihZls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sidebar.png"
+    },
+    {
+      "Identity": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\v2_2.png",
+      "SourceId": "ChatRoom",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\",
+      "BasePath": "_content/ChatRoom",
+      "RelativePath": "v2_2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b09vq07nag",
+      "Integrity": "pTY0c/UZHIyNW8Y3qghaILkshjV4ATkmnX7y8u25KZE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\v2_2.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Radzen.Blazor/css/dark.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0AB2c8r28JaoRdBgotEvaaeSETMCQyoVr6eLE9KGZ3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0AB2c8r28JaoRdBgotEvaaeSETMCQyoVr6eLE9KGZ3c="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/dark.ctlzmg1qhg.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0AB2c8r28JaoRdBgotEvaaeSETMCQyoVr6eLE9KGZ3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ctlzmg1qhg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0AB2c8r28JaoRdBgotEvaaeSETMCQyoVr6eLE9KGZ3c="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/dark.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/dark-base.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dg2uLnp8WT18OLoavAJTzFemvN4cIL4/U3dEIyrYqso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dg2uLnp8WT18OLoavAJTzFemvN4cIL4/U3dEIyrYqso="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/dark-base.ms78oz3ijf.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dg2uLnp8WT18OLoavAJTzFemvN4cIL4/U3dEIyrYqso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ms78oz3ijf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dg2uLnp8WT18OLoavAJTzFemvN4cIL4/U3dEIyrYqso="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/dark-base.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/dark-wcag.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M9oCY0HEHaFPTMj7CLTxNBT7/8jUvcI3/3q27/kphek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M9oCY0HEHaFPTMj7CLTxNBT7/8jUvcI3/3q27/kphek="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/dark-wcag.f9yvf3g7j5.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M9oCY0HEHaFPTMj7CLTxNBT7/8jUvcI3/3q27/kphek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9yvf3g7j5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M9oCY0HEHaFPTMj7CLTxNBT7/8jUvcI3/3q27/kphek="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/dark-wcag.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/default.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4x3OfRrAdkgIyei1Kajrc+SrkyIqnhN1bvXVQzbziPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4x3OfRrAdkgIyei1Kajrc+SrkyIqnhN1bvXVQzbziPo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/default.vl9p9ek1x9.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4x3OfRrAdkgIyei1Kajrc+SrkyIqnhN1bvXVQzbziPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vl9p9ek1x9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4x3OfRrAdkgIyei1Kajrc+SrkyIqnhN1bvXVQzbziPo="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/default.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/default-base.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UbVx2QXkBRJ9rvwO7wIpCgQfJPj0mzkeNBchcYfQTSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UbVx2QXkBRJ9rvwO7wIpCgQfJPj0mzkeNBchcYfQTSg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/default-base.p6eani5k1x.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UbVx2QXkBRJ9rvwO7wIpCgQfJPj0mzkeNBchcYfQTSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p6eani5k1x"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UbVx2QXkBRJ9rvwO7wIpCgQfJPj0mzkeNBchcYfQTSg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/default-base.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/default-wcag.796b73bq82.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lYiMLG73UrqjeD3Xr0zwkygnPDSAQXeAo1554Yjqjkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "796b73bq82"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lYiMLG73UrqjeD3Xr0zwkygnPDSAQXeAo1554Yjqjkc="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/default-wcag.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/default-wcag.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\default-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lYiMLG73UrqjeD3Xr0zwkygnPDSAQXeAo1554Yjqjkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lYiMLG73UrqjeD3Xr0zwkygnPDSAQXeAo1554Yjqjkc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic.9eht9x7hrh.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643008"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UXrF8K0c7KZrikGMN95vxqwpkk+E87k9UmR66wmbbps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9eht9x7hrh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UXrF8K0c7KZrikGMN95vxqwpkk+E87k9UmR66wmbbps="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/humanistic.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643008"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UXrF8K0c7KZrikGMN95vxqwpkk+E87k9UmR66wmbbps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UXrF8K0c7KZrikGMN95vxqwpkk+E87k9UmR66wmbbps="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-base.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640167"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s1UYc3734Zo3TSzVqdfEwuZLFpYc+uL6vnUSnubsK2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s1UYc3734Zo3TSzVqdfEwuZLFpYc+uL6vnUSnubsK2o="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-base.vphoyl9a2y.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640167"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s1UYc3734Zo3TSzVqdfEwuZLFpYc+uL6vnUSnubsK2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vphoyl9a2y"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s1UYc3734Zo3TSzVqdfEwuZLFpYc+uL6vnUSnubsK2o="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/humanistic-base.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-dark.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OYR2k7+puRJfX+t7RZ0AEqWZTPbmwqCdCUVmjfRuS5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OYR2k7+puRJfX+t7RZ0AEqWZTPbmwqCdCUVmjfRuS5I="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-dark.h26yhwsdf2.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OYR2k7+puRJfX+t7RZ0AEqWZTPbmwqCdCUVmjfRuS5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h26yhwsdf2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OYR2k7+puRJfX+t7RZ0AEqWZTPbmwqCdCUVmjfRuS5I="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/humanistic-dark.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-dark-base.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9gRVzsBD+UM5CXCqmcUbq37b3mw5aH4G0STvVLclw2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9gRVzsBD+UM5CXCqmcUbq37b3mw5aH4G0STvVLclw2k="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-dark-base.uar3g282iv.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9gRVzsBD+UM5CXCqmcUbq37b3mw5aH4G0STvVLclw2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uar3g282iv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9gRVzsBD+UM5CXCqmcUbq37b3mw5aH4G0STvVLclw2k="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/humanistic-dark-base.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-dark-wcag.a5szytxnku.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wsCFo85Tm++Hir55ycJcA850vMHr3ejT4YmaO32HaNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a5szytxnku"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wsCFo85Tm++Hir55ycJcA850vMHr3ejT4YmaO32HaNc="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/humanistic-dark-wcag.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-dark-wcag.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wsCFo85Tm++Hir55ycJcA850vMHr3ejT4YmaO32HaNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wsCFo85Tm++Hir55ycJcA850vMHr3ejT4YmaO32HaNc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-wcag.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J8kJYxpBFMrMjHMBSdDlq1lYqyntxOrDZ8AW5FrxH8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J8kJYxpBFMrMjHMBSdDlq1lYqyntxOrDZ8AW5FrxH8U="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-wcag.x6merli1rk.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\humanistic-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J8kJYxpBFMrMjHMBSdDlq1lYqyntxOrDZ8AW5FrxH8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x6merli1rk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J8kJYxpBFMrMjHMBSdDlq1lYqyntxOrDZ8AW5FrxH8U="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/humanistic-wcag.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "652100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dvUiRV05t8GPRcZOhGVelGkNDfU2cPYUs7JVLWV3hFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dvUiRV05t8GPRcZOhGVelGkNDfU2cPYUs7JVLWV3hFw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material.iyz6zr46e6.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "652100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dvUiRV05t8GPRcZOhGVelGkNDfU2cPYUs7JVLWV3hFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iyz6zr46e6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dvUiRV05t8GPRcZOhGVelGkNDfU2cPYUs7JVLWV3hFw="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/material.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-base.1ctvny2mas.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QYVveRTQwp5KX7k7bgd8PFM6s8o2EUas4uo/Oef4Skg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ctvny2mas"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QYVveRTQwp5KX7k7bgd8PFM6s8o2EUas4uo/Oef4Skg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/material-base.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-base.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QYVveRTQwp5KX7k7bgd8PFM6s8o2EUas4uo/Oef4Skg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:28:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QYVveRTQwp5KX7k7bgd8PFM6s8o2EUas4uo/Oef4Skg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-dark.6yz07f3l9b.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "651713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AtfeY6zt1gDf/lIQQrHtrOsFv+1eTrTYzG1Xg546uyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6yz07f3l9b"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AtfeY6zt1gDf/lIQQrHtrOsFv+1eTrTYzG1Xg546uyk="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/material-dark.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-dark.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "651713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AtfeY6zt1gDf/lIQQrHtrOsFv+1eTrTYzG1Xg546uyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AtfeY6zt1gDf/lIQQrHtrOsFv+1eTrTYzG1Xg546uyk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-dark-base.a5vjknvy2r.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "648872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"buSYV839wWdKaWiWfzAlK7uDRRna5l5uDO/t9EldzBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a5vjknvy2r"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-buSYV839wWdKaWiWfzAlK7uDRRna5l5uDO/t9EldzBI="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/material-dark-base.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-dark-base.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "648872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"buSYV839wWdKaWiWfzAlK7uDRRna5l5uDO/t9EldzBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-buSYV839wWdKaWiWfzAlK7uDRRna5l5uDO/t9EldzBI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-dark-wcag.22pb44itlf.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mscmBJFsTrAe0H/SoknylPnukiQX2yfQ/zSnbR4B75k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "22pb44itlf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mscmBJFsTrAe0H/SoknylPnukiQX2yfQ/zSnbR4B75k="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/material-dark-wcag.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-dark-wcag.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mscmBJFsTrAe0H/SoknylPnukiQX2yfQ/zSnbR4B75k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mscmBJFsTrAe0H/SoknylPnukiQX2yfQ/zSnbR4B75k="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-wcag.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y6x9nQqkv3mW+Dvmm6Pvh+h0ixHfY0RLzrX6ZlktoG4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y6x9nQqkv3mW+Dvmm6Pvh+h0ixHfY0RLzrX6ZlktoG4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-wcag.pblx1qaqft.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\material-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y6x9nQqkv3mW+Dvmm6Pvh+h0ixHfY0RLzrX6ZlktoG4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pblx1qaqft"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y6x9nQqkv3mW+Dvmm6Pvh+h0ixHfY0RLzrX6ZlktoG4="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/material-wcag.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/4hcUhf2/5LxCSMLOsKm+nGhC+5N8V1sYL8s0XLNkvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/4hcUhf2/5LxCSMLOsKm+nGhC+5N8V1sYL8s0XLNkvI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software.dtu0r0advo.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/4hcUhf2/5LxCSMLOsKm+nGhC+5N8V1sYL8s0XLNkvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dtu0r0advo"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/4hcUhf2/5LxCSMLOsKm+nGhC+5N8V1sYL8s0XLNkvI="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/software.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-base.9l4zfubvw6.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640225"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A+ff7ee8yurGnIxroWL8FfiAKLEFEwYolw12e7bLdQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9l4zfubvw6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A+ff7ee8yurGnIxroWL8FfiAKLEFEwYolw12e7bLdQw="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/software-base.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-base.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640225"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A+ff7ee8yurGnIxroWL8FfiAKLEFEwYolw12e7bLdQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A+ff7ee8yurGnIxroWL8FfiAKLEFEwYolw12e7bLdQw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-dark.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l95ctifcoxfwUUWlvh5cLFVf2iLNFjLpWY6AjGUHCCo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l95ctifcoxfwUUWlvh5cLFVf2iLNFjLpWY6AjGUHCCo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-dark.d7q7hkqumb.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l95ctifcoxfwUUWlvh5cLFVf2iLNFjLpWY6AjGUHCCo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d7q7hkqumb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l95ctifcoxfwUUWlvh5cLFVf2iLNFjLpWY6AjGUHCCo="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/software-dark.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-dark-base.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bvXqZ2k9DEwak2IbY1QQ+i7q6ZXVeIsEXQWt3ABQe2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bvXqZ2k9DEwak2IbY1QQ+i7q6ZXVeIsEXQWt3ABQe2E="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-dark-base.ibxb0ybo9x.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "640537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bvXqZ2k9DEwak2IbY1QQ+i7q6ZXVeIsEXQWt3ABQe2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ibxb0ybo9x"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bvXqZ2k9DEwak2IbY1QQ+i7q6ZXVeIsEXQWt3ABQe2E="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/software-dark-base.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-dark-wcag.557e8lceon.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VyhJgq8po3mud6FSP2a9ENksqEZN5jW2kGxLQC+F154=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "557e8lceon"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VyhJgq8po3mud6FSP2a9ENksqEZN5jW2kGxLQC+F154="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/software-dark-wcag.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-dark-wcag.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VyhJgq8po3mud6FSP2a9ENksqEZN5jW2kGxLQC+F154=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VyhJgq8po3mud6FSP2a9ENksqEZN5jW2kGxLQC+F154="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-wcag.9fpk6led9e.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tRcVAq9DGc0nyvTuxUpiBTY8PaxnC6deHLSE8Ri1PMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9fpk6led9e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tRcVAq9DGc0nyvTuxUpiBTY8PaxnC6deHLSE8Ri1PMg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/software-wcag.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-wcag.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\software-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tRcVAq9DGc0nyvTuxUpiBTY8PaxnC6deHLSE8Ri1PMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tRcVAq9DGc0nyvTuxUpiBTY8PaxnC6deHLSE8Ri1PMg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649493"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1KQDVTGhE+Wau/9CIJXOGgA8hEFk6bQ66x6a9TyIvZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1KQDVTGhE+Wau/9CIJXOGgA8hEFk6bQ66x6a9TyIvZc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard.ki9ku0x47z.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649493"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1KQDVTGhE+Wau/9CIJXOGgA8hEFk6bQ66x6a9TyIvZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ki9ku0x47z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1KQDVTGhE+Wau/9CIJXOGgA8hEFk6bQ66x6a9TyIvZc="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/standard.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-base.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "646652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d6kX8eyYbZaHbHnvL8UmDaHxCT5nw7PNMx6GEVmd4tg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d6kX8eyYbZaHbHnvL8UmDaHxCT5nw7PNMx6GEVmd4tg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-base.tbax4ktqif.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "646652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d6kX8eyYbZaHbHnvL8UmDaHxCT5nw7PNMx6GEVmd4tg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tbax4ktqif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d6kX8eyYbZaHbHnvL8UmDaHxCT5nw7PNMx6GEVmd4tg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/standard-base.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-dark.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mdy0J2P77DDeQNK43pC8T+VmZOxmNKb/xLGo6vT0Hwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mdy0J2P77DDeQNK43pC8T+VmZOxmNKb/xLGo6vT0Hwc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-dark.jvea2ecjsz.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mdy0J2P77DDeQNK43pC8T+VmZOxmNKb/xLGo6vT0Hwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jvea2ecjsz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mdy0J2P77DDeQNK43pC8T+VmZOxmNKb/xLGo6vT0Hwc="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/standard-dark.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-dark-base.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "646258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UH1TrO422Hhfm3EkanuKAl7DVDf4u1Sb43MhPJkJMhw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UH1TrO422Hhfm3EkanuKAl7DVDf4u1Sb43MhPJkJMhw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-dark-base.sl4g6brqwo.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "646258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UH1TrO422Hhfm3EkanuKAl7DVDf4u1Sb43MhPJkJMhw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sl4g6brqwo"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UH1TrO422Hhfm3EkanuKAl7DVDf4u1Sb43MhPJkJMhw="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/standard-dark-base.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-dark-wcag.7bt2cgjiuc.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HYNTnwNf3xj899KPdiKwmD1e5t3XRg9VaQgB1ZOvKeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7bt2cgjiuc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HYNTnwNf3xj899KPdiKwmD1e5t3XRg9VaQgB1ZOvKeI="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/standard-dark-wcag.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-dark-wcag.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HYNTnwNf3xj899KPdiKwmD1e5t3XRg9VaQgB1ZOvKeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HYNTnwNf3xj899KPdiKwmD1e5t3XRg9VaQgB1ZOvKeI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-wcag.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GFU2mt0A9T8j9YMwMQqIUmdziKNDuPppDCn2o37LV2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GFU2mt0A9T8j9YMwMQqIUmdziKNDuPppDCn2o37LV2E="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-wcag.kp0ueqs315.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\css\\standard-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GFU2mt0A9T8j9YMwMQqIUmdziKNDuPppDCn2o37LV2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:29:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kp0ueqs315"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GFU2mt0A9T8j9YMwMQqIUmdziKNDuPppDCn2o37LV2E="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/css/standard-wcag.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/MaterialSymbolsOutlined.mv86jbv18h.woff2",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3208232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jl6yGniuOaLQTXd36jhE7+/dH86dwgPNpHgSvBiQxxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2024 15:22:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mv86jbv18h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jl6yGniuOaLQTXd36jhE7+/dH86dwgPNpHgSvBiQxxM="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/fonts/MaterialSymbolsOutlined.woff2"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/MaterialSymbolsOutlined.woff2",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3208232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jl6yGniuOaLQTXd36jhE7+/dH86dwgPNpHgSvBiQxxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2024 15:22:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jl6yGniuOaLQTXd36jhE7+/dH86dwgPNpHgSvBiQxxM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/RobotoFlex.tdgcpklreb.woff2",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\RobotoFlex.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "747316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D4n6QkbzuJDYChkHTPMXLxJlSC/5uucOpe2kU+JCJRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2024 15:22:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tdgcpklreb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D4n6QkbzuJDYChkHTPMXLxJlSC/5uucOpe2kU+JCJRs="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/fonts/RobotoFlex.woff2"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/RobotoFlex.woff2",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\RobotoFlex.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "747316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D4n6QkbzuJDYChkHTPMXLxJlSC/5uucOpe2kU+JCJRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2024 15:22:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D4n6QkbzuJDYChkHTPMXLxJlSC/5uucOpe2kU+JCJRs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/SourceSans3VF-Italic.ttf.sw3iuqo2hf.woff2",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tJWavAVpOS+HxsasYS+Q4/4BBNKDckGJt9i29hrzR9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2024 15:22:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sw3iuqo2hf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tJWavAVpOS+HxsasYS+Q4/4BBNKDckGJt9i29hrzR9M="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/fonts/SourceSans3VF-Italic.ttf.woff2"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/SourceSans3VF-Italic.ttf.woff2",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tJWavAVpOS+HxsasYS+Q4/4BBNKDckGJt9i29hrzR9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2024 15:22:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tJWavAVpOS+HxsasYS+Q4/4BBNKDckGJt9i29hrzR9M="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/SourceSans3VF-Upright.ttf.nqmp3d2aoy.woff2",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "170188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XxZWb3pA05szmtJr4VH6Whqx8MJXTHouYZdlWEoay9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2024 15:22:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nqmp3d2aoy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XxZWb3pA05szmtJr4VH6Whqx8MJXTHouYZdlWEoay9g="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/fonts/SourceSans3VF-Upright.ttf.woff2"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/SourceSans3VF-Upright.ttf.woff2",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "170188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XxZWb3pA05szmtJr4VH6Whqx8MJXTHouYZdlWEoay9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2024 15:22:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XxZWb3pA05szmtJr4VH6Whqx8MJXTHouYZdlWEoay9g="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/Radzen.Blazor.js",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\Radzen.Blazor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4g5k2X37bjnc3I5BTOByZON1yNka6cMVSSACmPv+hh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:12:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4g5k2X37bjnc3I5BTOByZON1yNka6cMVSSACmPv+hh4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/Radzen.Blazor.me5rhvxkh3.js",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\.nuget\\packages\\radzen.blazor\\6.1.5\\staticwebassets\\Radzen.Blazor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4g5k2X37bjnc3I5BTOByZON1yNka6cMVSSACmPv+hh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 14:12:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "me5rhvxkh3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4g5k2X37bjnc3I5BTOByZON1yNka6cMVSSACmPv+hh4="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Radzen.Blazor/Radzen.Blazor.js"
+        }
+      ]
+    },
+    {
+      "Route": "app.75v8iso2mq.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5814"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5ExowwyjaYiitgiEzqntXkqrR2xMKYcuxNHTWdxybU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 16:33:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75v8iso2mq"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5ExowwyjaYiitgiEzqntXkqrR2xMKYcuxNHTWdxybU="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5814"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5ExowwyjaYiitgiEzqntXkqrR2xMKYcuxNHTWdxybU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 16:33:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5ExowwyjaYiitgiEzqntXkqrR2xMKYcuxNHTWdxybU="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 16:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 16:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 14:21:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 14:21:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "ChatRoom.4oamcw6q5c.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatRoom.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fDTmHBMKYXOos7vXuWih3SsIjTQhTqQwuOp1oxuCsOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 19:41:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4oamcw6q5c"
+        },
+        {
+          "Name": "label",
+          "Value": "ChatRoom.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fDTmHBMKYXOos7vXuWih3SsIjTQhTqQwuOp1oxuCsOQ="
+        }
+      ]
+    },
+    {
+      "Route": "ChatRoom.4oamcw6q5c.styles.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ChatRoom.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fDTmHBMKYXOos7vXuWih3SsIjTQhTqQwuOp1oxuCsOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 19:41:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4oamcw6q5c"
+        },
+        {
+          "Name": "label",
+          "Value": "ChatRoom.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fDTmHBMKYXOos7vXuWih3SsIjTQhTqQwuOp1oxuCsOQ="
+        }
+      ]
+    },
+    {
+      "Route": "ChatRoom.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatRoom.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fDTmHBMKYXOos7vXuWih3SsIjTQhTqQwuOp1oxuCsOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 19:41:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fDTmHBMKYXOos7vXuWih3SsIjTQhTqQwuOp1oxuCsOQ="
+        }
+      ]
+    },
+    {
+      "Route": "ChatRoom.styles.css",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ChatRoom.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fDTmHBMKYXOos7vXuWih3SsIjTQhTqQwuOp1oxuCsOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 19:41:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fDTmHBMKYXOos7vXuWih3SsIjTQhTqQwuOp1oxuCsOQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 14:21:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 14:21:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "HomeImg.fuls464yab.png",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\HomeImg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "779901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aYYu8o9MRAij/4NY1GyDRmzEvUwJKqAECcTAJ48NxO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:38:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fuls464yab"
+        },
+        {
+          "Name": "label",
+          "Value": "HomeImg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aYYu8o9MRAij/4NY1GyDRmzEvUwJKqAECcTAJ48NxO4="
+        }
+      ]
+    },
+    {
+      "Route": "HomeImg.png",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\HomeImg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "779901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aYYu8o9MRAij/4NY1GyDRmzEvUwJKqAECcTAJ48NxO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:38:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aYYu8o9MRAij/4NY1GyDRmzEvUwJKqAECcTAJ48NxO4="
+        }
+      ]
+    },
+    {
+      "Route": "sidebar.aad9reklnw.png",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\sidebar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fuFw2J1Vd2bWquS2K3wRIFDzzBiUZyeg81Ppw3ihZls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 15:49:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aad9reklnw"
+        },
+        {
+          "Name": "label",
+          "Value": "sidebar.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fuFw2J1Vd2bWquS2K3wRIFDzzBiUZyeg81Ppw3ihZls="
+        }
+      ]
+    },
+    {
+      "Route": "sidebar.png",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\sidebar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fuFw2J1Vd2bWquS2K3wRIFDzzBiUZyeg81Ppw3ihZls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 15:49:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fuFw2J1Vd2bWquS2K3wRIFDzzBiUZyeg81Ppw3ihZls="
+        }
+      ]
+    },
+    {
+      "Route": "v2_2.b09vq07nag.png",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\v2_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2674"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pTY0c/UZHIyNW8Y3qghaILkshjV4ATkmnX7y8u25KZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:38:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b09vq07nag"
+        },
+        {
+          "Name": "label",
+          "Value": "v2_2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pTY0c/UZHIyNW8Y3qghaILkshjV4ATkmnX7y8u25KZE="
+        }
+      ]
+    },
+    {
+      "Route": "v2_2.png",
+      "AssetFile": "C:\\Users\\Никита Мисилевич\\source\\repos\\ChatRoom\\ChatRoom\\wwwroot\\v2_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2674"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pTY0c/UZHIyNW8Y3qghaILkshjV4ATkmnX7y8u25KZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:38:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pTY0c/UZHIyNW8Y3qghaILkshjV4ATkmnX7y8u25KZE="
+        }
+      ]
+    }
+  ]
+}

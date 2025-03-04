@@ -1,0 +1,93 @@
+﻿@page "/login"
+@using ChatRoom.Components.Services
+@inject NavigationManager Navigation
+@inject AuthService AuthService
+@inject CustomAuthStateProvider CustomAuthStateProvider
+@inject LocalStorageService LocalStorageService
+@rendermode InteractiveServer
+
+<body>
+    <div class="fon_0">
+        <div class="fon_1">
+            <!-- Используем @onsubmit для обработки формы -->
+            <form class="form" @onsubmit="HandleLogin">
+                <p><span class="v2_12">Авторизация</span></p>
+                <p><input maxlength="25" name="login" class="textField" placeholder="Login" @bind="Username" required></p>
+                <p><input type="password" maxlength="25" name="password" class="passField" placeholder="Password" @bind="Password" required></p>
+                <p><button type="submit" class="butt">Войти</button></p>
+                <p><button type="button" class="v2_20" @onclick="GoToRegister">Зарегистрироваться</button></p>
+            </form>
+
+            <!-- Сообщение об ошибке авторизации -->
+            @if (!string.IsNullOrEmpty(ErrorMessage))
+            {
+                <p class="error-message">@ErrorMessage</p>
+            }
+        </div>
+    </div>
+</body>
+
+<script src="_framework/blazor.server.js"></script>
+
+@code {
+    private string Username = "";
+    private string Password = "";
+    private string ErrorMessage = "";
+
+    // Переход на страницу регистрации
+    private void GoToRegister()
+    {
+        Console.WriteLine("Переход на регистрацию");
+        Navigation.NavigateTo("/register", forceLoad: true); // forceLoad для полной перезагрузки страницы
+    }
+
+    // Обработка логина
+    private async Task HandleLogin()
+    {
+        try
+        {
+            var isAuthenticated = await AuthService.Authenticate(Username, Password);
+            if (isAuthenticated)
+            {
+                Console.WriteLine("Успешный вход, переход на главную страницу...");
+
+                // Сохраняем данные о пользователе в localStorage
+                await LocalStorageService.SetItemAsync("username", Username);
+                await LocalStorageService.SetItemAsync("role", "User"); // Пример роли, в реальности вы получите её с сервера
+
+                // Перенаправляем на главную страницу
+                Navigation.NavigateTo("/", forceLoad: true);
+
+            }
+            else
+            {
+                ErrorMessage = "Неверные данные для входа.";
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ошибка авторизации: {ex.Message}");
+            ErrorMessage = "Произошла ошибка, попробуйте снова.";
+        }
+    }
+
+
+    // Подписка на событие аутентификации при инициализации
+    protected override void OnInitialized()
+    {
+        AuthService.OnUserAuthenticated += OnUserAuthenticated;
+    }
+
+    // Обработчик события успешной аутентификации
+    private void OnUserAuthenticated()
+    {
+        // Перерисовываем компонент после авторизации
+        StateHasChanged();
+    }
+
+    // Отписка от события при уничтожении компонента
+    public void Dispose()
+    {
+        AuthService.OnUserAuthenticated -= OnUserAuthenticated;
+    }
+}

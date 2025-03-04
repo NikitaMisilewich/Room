@@ -1,0 +1,66 @@
+﻿@using ChatRoom.Components.Services
+@using System.Security.Claims
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager Navigation
+@inject LocalStorageService LocalStorageService
+@inject CustomAuthStateProvider CustomAuthStateProvider  
+@rendermode InteractiveServer
+
+<div class="sidebar">
+    <div class="profile">
+        <div class="profile-box">
+            <img src="sidebar.png" alt="Avatar" class="avatar" />
+            <div class="profile-info">
+                <h4>@Username)</h4> <!-- Отображаем имя пользователя -->
+                <p class="group-text">@Role</p> <!-- Отображаем роль пользователя -->
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="nav-link"><span>📚</span> <span>Курсы</span></a></li>
+            <li><a href="chat" class="nav-link"><span>💬</span> <span>Чаты</span></a></li>
+            <li><a href="weather" class="nav-link"><span>📅</span> <span>Расписание</span></a></li>
+            <li><a href="weather" class="nav-link"><span>📆</span> <span>Календарь</span></a></li>
+        </ul>
+    </nav>
+
+    <div class="logout">
+        <a @onclick="Logout" class="nav-link"><span>🚪</span> <span>Выход</span></a>
+    </div>
+</div>
+
+@code {
+    private string Username { get; set; }
+    private string Role { get; set; }
+
+    // Этот метод вызывается после того, как компонент был отрисован
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            Username = await LocalStorageService.GetItemAsync("username");
+            Role = await LocalStorageService.GetItemAsync("role");
+
+            if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Role))
+            {
+                if (!Navigation.Uri.Contains("/login") && !Navigation.Uri.Contains("/register"))
+                    Navigation.NavigateTo("/login");
+            }
+
+            // Только после загрузки данных обновляем компонент
+            await InvokeAsync(StateHasChanged);
+        }
+    }
+
+    private async Task Logout()
+    {
+        // Удаляем данные из localStorage
+        await LocalStorageService.RemoveItemAsync("username");
+        await LocalStorageService.RemoveItemAsync("role");
+
+        // Перенаправляем на страницу входа
+        Navigation.NavigateTo("/login");
+    }
+}

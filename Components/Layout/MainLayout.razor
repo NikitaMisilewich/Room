@@ -1,0 +1,80 @@
+﻿@using ChatRoom.Components.Services
+@inherits LayoutComponentBase
+@inject LocalStorageService LocalStorageService
+@inject AuthService AuthService
+@inject NavigationManager Navigation
+@inject CustomAuthStateProvider CustomAuthStateProvider
+@inject IJSRuntime JSRuntime
+
+<div class="page">
+    <!-- Показываем основное содержимое только если пользователь авторизован -->
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        @if (isAuthenticated)
+        {
+            <div class="top-row px-4">
+                <div class="top-buttons">
+                    <a href="/help" class="icon-button">
+                        <i class="fa fa-question-circle"></i>
+                    </a>
+                    <a href="/notifications" class="icon-button">
+                        <i class="fa fa-bell"></i>
+                    </a>
+                    <a href="/settings" class="icon-button">
+                        <i class="fa fa-cogs"></i>
+                    </a>
+                </div>
+            </div>
+        }
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    private bool isAuthenticated = false;
+    private bool _initialized = false;
+    private string Username;
+
+    // Этот метод вызывается после того, как компонент был отрисован
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Вызываем LocalStorageService только после первого рендера
+            Username = await LocalStorageService.GetItemAsync("username");
+
+            // Обновляем состояние компонента
+            isAuthenticated = !string.IsNullOrEmpty(Username);
+            StateHasChanged();
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        // В OnInitializedAsync не делаем вызовы JavaScript
+        // Проверка состояния аутентификации
+        var authState = await CustomAuthStateProvider.GetAuthenticationStateAsync();
+        isAuthenticated = authState.User.Identity?.IsAuthenticated ?? false;
+
+        // Подписка на событие аутентификации
+        AuthService.OnUserAuthenticated += OnUserAuthenticated;
+
+        StateHasChanged();
+    }
+
+    private void OnUserAuthenticated()
+    {
+        isAuthenticated = true;
+        StateHasChanged(); // Принудительное обновление компонента
+    }
+
+    public void Dispose()
+    {
+        AuthService.OnUserAuthenticated -= OnUserAuthenticated;
+    }
+}

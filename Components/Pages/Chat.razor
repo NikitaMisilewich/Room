@@ -1,0 +1,124 @@
+﻿@page "/chat"
+@using ChatRoom.Components.Models
+@using ChatRoom.Components.Services
+@using Microsoft.AspNetCore.SignalR.Client
+@inject MessageService MessageService
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager Navigation
+
+<PageTitle>Чат</PageTitle>
+
+<link rel="stylesheet" href="app.css" />
+
+    <div class="chat-page">
+        <!-- Окно чата -->
+        <div class="chat-container">
+            <div class="chat-back-header">
+                <div class="chat-header">
+                    <img src="avatar.png" alt="Аватар">
+                    <span>Иван Иванов</span>
+                </div>
+            </div>
+            <div class="chat-messages">
+            @foreach (var message in messages)
+            {
+                <div class="message @(message.SenderId == currentUser?.Id ? "sent" : "received")">
+                    <p>@message.Text</p>
+                    @if (message.File != null)
+                    {
+                        <a href="data:@message.File.ContentType;base64,@Convert.ToBase64String(message.File.Data)" download="@message.File.FileName">
+                            📎 @message.File.FileName
+                        </a>
+                    }
+                </div>
+            }
+            </div>
+            <div class="chat-input">
+            <button class="attach-btn">📎<InputFile OnChange="OnFileSelected" /></button>
+                <input type="text" @bind="newMessage" placeholder="Введите сообщение...">
+                <button @onclick="SendMessage">📩</button>
+            </div>
+        </div>
+
+        <!-- Список чатов -->
+        <div class="chat-sidebar">
+            <input type="text" class="search" placeholder="🔍 Поиск">
+            <div class="chat-list">
+                <div class="chat-item">Название Чата</div>
+                <div class="chat-item">Название Чата</div>
+                <div class="chat-item">Название Чата</div>
+                <div class="chat-item">Название Чата</div>
+                <div class="chat-item">Название Чата</div>
+            </div>
+        </div>
+    </div>
+
+
+@code {
+    private IBrowserFile? selectedFile;
+    private string fileName = "";
+    private string fileType = "";
+    private byte[]? fileData;
+    private List<Message> messages = new();
+    private string newMessage = "";
+    private User? currentUser;
+    private int receiverId = 1; // Здесь ID собеседника, можно динамически менять
+    private HubConnection? hubConnection;
+
+    protected override async Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl(Navigation.ToAbsoluteUri("/chatHub"))
+            .WithAutomaticReconnect()
+            .Build();
+
+        hubConnection.On<int, string, int?>("ReceiveMessage", (senderId, text, fileId) =>
+        {
+            var message = new Message
+                {
+                    SenderId = senderId,
+                    ReceiverId = receiverId,
+                    Text = text,
+                    SentAt = DateTime.UtcNow,
+                    FileId = fileId
+                };
+            messages.Add(message);
+            StateHasChanged();
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    private async Task OnFileSelected(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        if (file != null)
+        {
+            fileName = file.Name;
+            fileType = file.ContentType;
+
+            using var stream = file.OpenReadStream();
+            using var memoryStream = new MemoryStream();
+            await stream.CopyToAsync(memoryStream);
+            fileData = memoryStream.ToArray();
+        }
+    }
+
+    private async Task SendMessage()
+    {
+        if (!string.IsNullOrWhiteSpace(newMessage) && currentUser != null)
+        {
+            FileAttachment? fileAttachment = null;
+
+            if (fileData != null)
+            {
+                fileAttachment = await MessageService.UploadFileAsync(fileName, fileType, fileData);
+            }
+
+            var message = await MessageService.SendMessage(currentUser.Id, receiverId, newMessage, fileAttachment);
+            messages.Add(message);
+            newMessage = "";
+            fileData = null; // Сбрасываем после отправки
+        }
+    }
+}

@@ -1,0 +1,7 @@
+wwwroot\app.css
+wwwroot\bootstrap\bootstrap.min.css
+wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png
+wwwroot\HomeImg.png
+wwwroot\sidebar.png
+wwwroot\v2_2.png

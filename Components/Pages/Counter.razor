@@ -1,0 +1,109 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<h3 class="page-title">Все Курсы</h3>
+@code {
+    class Course
+    {
+        public string Title { get; set; }
+        public string Subject { get; set; }
+        public string CourseNumber { get; set; }
+        public string InstructorEmail { get; set; }
+        public string InstructorName { get; set; }
+        public bool IsCompleted { get; set; }
+    }
+
+    List<Course> courses = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        courses = new List<Course>
+        {
+            new Course { Title = "Основы программирования", Subject = "Информатика", CourseNumber = "CS101", InstructorEmail = "ivanov@university.ru", InstructorName = "Иванов Иван", IsCompleted = false },
+            new Course { Title = "Математический анализ", Subject = "Математика", CourseNumber = "MATH201", InstructorEmail = "petrova@university.ru", InstructorName = "Петрова Анна", IsCompleted = true },
+            new Course { Title = "История России", Subject = "История", CourseNumber = "HIST110", InstructorEmail = "ronald@adobe.com", InstructorName = "Сидоров Петр", IsCompleted = true },
+            new Course { Title = "Физика для начинающих", Subject = "Физика", CourseNumber = "PHYS100", InstructorEmail = "marvin@tesla.com", InstructorName = "Волкова Мария", IsCompleted = false },
+            new Course { Title = "Экономика предприятия", Subject = "Экономика", CourseNumber = "ECON220", InstructorEmail = "jerome@google.com", InstructorName = "Смирнов Алексей", IsCompleted = false }
+        };
+    }
+}
+
+<button class="btn btn-secondary add-course">Добавить курс</button>
+<button class="btn btn-secondary search-course">Поиск</button>
+
+<div class="course-container">
+    <RadzenDataGrid TItem="Course" Data="@courses" AllowPaging="true" PageSize="5" AllowSorting="true" ShowPagerSummary="true" class="custom-grid">
+        <Columns>
+            <RadzenDataGridColumn TItem="Course" Property="Title" Title="Название курса" />
+            <RadzenDataGridColumn TItem="Course" Property="Subject" Title="Предмет"  />
+            <RadzenDataGridColumn TItem="Course" Property="CourseNumber" Title="Номер курса"  />
+            <RadzenDataGridColumn TItem="Course" Property="InstructorEmail" Title="Email Преподавателя"  />
+            <RadzenDataGridColumn TItem="Course" Property="InstructorName" Title="Преподаватель"  />
+            <RadzenDataGridColumn TItem="Course" Title="Статус" >
+                <Template Context="course">
+                    @if (course.IsCompleted)
+                    {
+                        <span class="status-badge completed">Завершен</span>
+                    }
+                    else
+                    {
+                        <a class="btn btn-primary" href="/announcements">Войти</a>
+                    }
+                </Template>
+            </RadzenDataGridColumn>
+        </Columns>
+    </RadzenDataGrid>
+</div>
+
+<style>
+    .page-title {
+        color: #2c3e50;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .course-container {
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .custom-grid {
+        width: 100%;
+    }
+
+    .status-badge {
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+        .status-badge.completed {
+            background: #e74c3c;
+            color: white;
+        }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn-secondary {
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+        .btn-secondary:hover, .btn-primary:hover {
+            background: linear-gradient(135deg, #2a5298, #1e3c72);
+        }
+</style>

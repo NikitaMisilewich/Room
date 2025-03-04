@@ -1,0 +1,66 @@
+﻿@page "/register"
+@inject AuthService AuthService
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
+
+@if (!string.IsNullOrEmpty(ErrorMessage))
+{
+    <p style="color:red">@ErrorMessage</p>
+}
+
+<div class="fon_0">
+    <div class="fon_1">
+        <form @onsubmit="RegisterUser" class="form1">
+            <p><span class="v2_12">Регистрация</span></p>
+            <p><input maxlength="25" name="fio" class="textField" placeholder="Фио" @bind="Fio"></p>
+            <p><input maxlength="25" name="group" class="textField" placeholder="Группа" @bind="Group"></p>
+            <p><input maxlength="25" name="username" class="textField" placeholder="Логин" @bind="Username"></p>
+            <p><input type="password" maxlength="25" name="password" class="passField" placeholder="Пароль" @bind="Password"></p>
+            <p><input type="password" maxlength="25" name="confirmPassword" class="passField" placeholder="Повторите пароль" @bind="ConfirmPassword"></p>
+            <p><button type="button" class="butt" width="77px" @onclick="RegisterUser">Зарегистрироваться</button></p>
+        </form>
+    </div>
+</div>
+
+@code {
+    private string Fio = "";
+    private string Username = "";
+    private string Password = "";
+    private string ConfirmPassword = "";
+    private string Group = "";
+    private string ErrorMessage = "";
+
+    async Task RegisterUser()
+    {
+        Console.WriteLine($"Кнопка работает:");
+        if (Password != ConfirmPassword)
+        {
+            ErrorMessage = "Пароли не совпадают!";
+            StateHasChanged(); // Обновляем UI
+            return;
+        }
+
+        try
+        {
+            var success = await AuthService.Register(Fio, Username, Password, Group);
+            if (success)
+            {
+                Console.WriteLine($"Переход");
+                Navigation.NavigateTo("/login", forceLoad: true);
+                StateHasChanged();
+            }
+            else
+            {
+                ErrorMessage = "Пользователь с таким логином уже существует!";
+                Console.WriteLine(ErrorMessage);
+                StateHasChanged();
+            }
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"Ошибка при регистрации: {ex.Message}";
+            Console.WriteLine($"Ошибка при регистрации: {ex.Message}");
+            StateHasChanged();
+        }
+    }
+}

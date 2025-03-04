@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Фон для страницы */
+.fon_0 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: fixed; /* Поменяли на fixed, чтобы фон оставался при прокрутке */
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+/* Фон для формы */
+.fon_1 {
+    width: 100%;
+    height: 100%;
+    background: url("HomeImg.png") no-repeat center center;
+    background-size: cover;
+    position: fixed; /* Поменяли на fixed, чтобы фон оставался при прокрутке */
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+/* Стиль для полей ввода */
+.textField, .passField {
+    width: 100%; /* Сделали ширину 100%, чтобы было удобнее на мобильных */
+    padding: 10px;
+    background-color: rgba(226, 236, 249, 0.8);
+    border-radius: 10px;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    color: #333;
+}
+
+/* Стиль для кнопок */
+.butt, .butt1 {
+    width: 100%;
+    height: 40px; /* Увеличили высоту кнопки для удобства */
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 10px; /* Добавили отступ сверху */
+}
+
+/* Форма авторизации */
+.form, .form1 {
+    border-radius: 20px;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Сделали ширину формы относительно экрана */
+    max-width: 400px; /* Максимальная ширина формы */
+    background-color: rgba(226, 236, 249, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Стиль для заголовка */
+.v2_12 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Кнопка для перехода на регистрацию */
+.v2_20 {
+    width: 100%;
+    color: rgba(0, 0, 0, 1);
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+.chat-page {
+    display: flex;
+    height: 100vh;
+}
+
+/* Окно чата */
+.chat-container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+/* Заголовок чата с фоновым изображением */
+.chat-back-header {
+    background: url('HomeImg.png') no-repeat center center/cover;
+    border-radius: 10px;
+    transform: rotate(180deg); /* Поворачиваем фон */
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transform: rotate(-180deg);
+}
+
+    .chat-header img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+        border: 2px solid white;
+    }
+
+/* Список чатов с фоном */
+.chat-sidebar {
+    flex: 1;
+    background: url('HomeImg.png') no-repeat center center/cover;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.search {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.chat-list {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.chat-item {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .chat-item:hover {
+        background: rgba(255, 255, 255, 0.4);
+    }
+
+/* Сообщения */
+.chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    max-width: 70%;
+}
+
+    .message.received {
+        background: #283793;
+        color: white;
+        align-self: flex-start;
+    }
+
+    .message.sent {
+        background: #6a89cc;
+        color: white;
+        align-self: flex-end;
+    }
+
+/* Поле ввода */
+.chat-input {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+    .chat-input input {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .chat-input button {
+        color: white;
+        border: none;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .chat-input .attach-btn {
+        background: transparent;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+
+.page-title {
+    color: #2c3e50;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.course-container {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-grid {
+    width: 100%;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+    .status-badge.completed {
+        background: #e74c3c;
+        color: white;
+    }
+
+.btn-primary {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+    .btn-secondary:hover, .btn-primary:hover {
+        background: linear-gradient(135deg, #2a5298, #1e3c72);
+    }
